@@ -1,0 +1,26 @@
+body{
+    background-color: dodgerblue;
+}
+
+.columna-tareas{
+
+    background-color: lightsteelblue;
+    color: #404040;
+    margin: 0.5em;
+    border-radius: 5px;
+    padding: 1%;
+    height: max-content;
+}
+
+.tarea{
+    background-color: white;
+    border-radius: 5px;
+    padding: 2%;
+    margin-top: 5px;
+    
+    margin-bottom: 5px;
+}
+
+.link-mover{
+    float: right;
+}
