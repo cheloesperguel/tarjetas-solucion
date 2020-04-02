@@ -15,7 +15,7 @@ function agregarTarea(idColumna){
         if(idColumna=="tarjetas-hechas"){
 
             textoTarea = document.getElementById("input-hecha").value;
-            document.getElementById("input-por-hacer").value="";
+            document.getElementById("input-hecha").value="";
 
             listaObjetivoElement = document.getElementById("tarjetas-hechas");
             
