@@ -8,6 +8,7 @@ function agregarTarea(idColumna){
     if(idColumna=="tarjetas-por-hacer"){
 
         textoTarea = document.getElementById("input-por-hacer").value;
+        document.getElementById("input-por-hacer").value="";
         listaObjetivoElement = document.getElementById("tarjetas-por-hacer");
 
     }else{
